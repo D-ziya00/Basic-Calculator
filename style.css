@@ -16,20 +16,22 @@ body{
     max-width: 500px;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: inset -8px 0px 8px rgba(0, 0, 0, 0.15),
+    inset 0px -8px 8px rgba(0, 0, 0, 0.25),
+    0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4)
 
 }
-
 /*Some properties on the display of the calculator*/
 #display{
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(105, 29%, 51%);
     color: white;
     font-size: 3rem;
-    text-align: right;
+    text-align: left;
     padding: 20px;
     border: none;
     width: 100%;
 }
-
 /* Designing the look of all the keys or buttons */
 #keys{
     display: grid;

@@ -8,8 +8,11 @@
 </head>
 <body>
     <div id="Calculator">
-        <input id="display"  readonly>
-        <div id="keys">
+     <div id="display-container">
+        <input id="display" readonly>  
+    </div>
+    
+     <div id="keys" >
             <!-- creating the basic buttons for the calculator -->
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
@@ -29,6 +32,7 @@
             <button onclick="calculate()">=</button>
             <button onclick="clearDisplay()"class="operator-btn">C</button>
             <button onclick="cleardigit('CE')"class="operator-btn">CE </button>
+            
         </div>
     </div>
     <script src="script.js"></script>
